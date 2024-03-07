@@ -43,7 +43,7 @@ There are two ways to define functions that belongs to a class:
 class MyClass {        // The class
   public:              // Access specifier
     void myMethod() {  // Method/function defined inside the class
-      cout << "Hello World!";
+      cout<< "Hello World!";
     }
 };
 
