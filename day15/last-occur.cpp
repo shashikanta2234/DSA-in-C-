@@ -29,7 +29,7 @@ int main(){
     if (last==-1){
         cout<<"Element is not present in array.";
     }else{
-        cout<<"Last occurrence of element "<<x<<" is at index:"<<last<<endl;
+        cout<<"Last occurrence of element "<<x<<" is index:"<<last<<endl;
     }
     return 0;
 }

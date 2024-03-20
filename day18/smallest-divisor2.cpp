@@ -32,7 +32,8 @@ int smallest_divisor(int a[],int n,int h){
 int main(){
     int arr[]={12,45,67,39};
     int n=sizeof(arr)/sizeof(arr[0]);
-    int smallest_div=smallest_divisor(arr,n,12);
+    int limit=8;
+    int smallest_div=smallest_divisor(arr,n,limit);
     cout<<"The Smallest Divisor of the Array is : "<<smallest_div<<endl;
     return 0;
 }
