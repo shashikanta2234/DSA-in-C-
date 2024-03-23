@@ -35,7 +35,7 @@ int min_possible_max(vector<int>&v,int n,int m){
 int main(){
     vector<int> arr = {25, 46, 28, 49, 24};
     int n = 5;
-    int m = 4;
+    int m = 2;
     int ans = min_possible_max(arr, n, m);
     cout << "Minimum possible maximum pages: " << ans << "\n";
     return 0;
