@@ -25,9 +25,8 @@ void countFreq(int a[],int n){
     cout<<"Element with minimum frequency: "<<minVal<<endl;
 }
 
-
 int main(){
-    int a[]={10,5,15,10,5,10,2,10,10};
+    int a[]={10,5,15,10,5,10,2,10,10,2,2};
     int n = sizeof(a)/sizeof(a[0]);
     countFreq(a,n);
     return 0;
