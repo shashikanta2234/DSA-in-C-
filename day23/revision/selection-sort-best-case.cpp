@@ -2,21 +2,22 @@
 using namespace std;
 
 void selection_sort(int a[],int n){
-    int count =0;
+    int countTC =0;
     for(int i=0;i<n-1;i++){
         int min=i;
         int swapped=0;
         for(int j=i+1;j<n;j++){
-            count++;
+            countTC++;
             if(a[j]<a[min]){
                 min=j;
+                swapped=1;
             }
             if(a[j+1]<a[j]){
                 swapped=1;
             }
         }
         if(swapped==0){
-            cout<<"\nTC="<<count;
+            cout<<"\nTC="<<countTC;
             return;
         }else{
             int temp=a[min];
@@ -24,7 +25,7 @@ void selection_sort(int a[],int n){
             a[i]=temp;
         }      
     }
-    cout<<"\nTC="<<count;
+    cout<<"\nTC="<<countTC;
 }
 
 void printArray(int a[],int n){

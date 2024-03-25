@@ -1,4 +1,1 @@
-if(swapped==0){
-            cout<<"\nTC="<<count;
-            return;
-        }else{
+   int arr[]={2,4,5,3,4,3,5,8,2,6,78,15,6,1,0};
