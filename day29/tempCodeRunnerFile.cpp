@@ -1,0 +1,1 @@
+cout<<"New Size of stack1 is : "<<stack1.size()<<endl;
