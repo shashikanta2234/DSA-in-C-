@@ -1,0 +1,1 @@
+ cout<<"Size: "<<queue1.size()<<endl;
